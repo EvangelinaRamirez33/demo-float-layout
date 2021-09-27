@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+.container{
+	width:1020px;
+	margin: 0 auto;
+	background-color: aliceblue;
+}
+
+header{
+	width: 100%;
+	text-align: center;
+	
+}
+
+.flex-container{
+	display: flex;
+	background-color: burlywood;
+	flex-direction: row;
+	align-items: stretch;
+	height:150px;
+	
+}
+.flex-container div{
+	background-color: aqua;
+	flex-grow: 4;
+}
+.flex-container nav{
+	flex-grow: 1;
+	flex-direction: column;
+}
+
+.flex-container .nav{
+	
+	
+}
+
+
+
+footer{
+	width: 100%;
+	text-align: center;
